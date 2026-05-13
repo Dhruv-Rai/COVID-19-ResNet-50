@@ -1,7 +1,7 @@
 # COVID-19 Classification from CT-Scans using ResNet-50
 
 ## 1. Project Overview
-Yeh project deep learning (CNN) ka use karke CT-scan images se COVID-19 aur Non-COVID cases ko classify karta hai. Isme **ResNet-50** architecture ka use kiya gaya hai with **Transfer Learning** methodology taaki medical imaging mein high precision achieve ki ja sake.
+This project uses Deep Learning (CNN) to classify COVID-19 and Non-COVID cases from CT-scan images. It utilizes the **ResNet-50** architecture with a **Transfer Learning** methodology to achieve high precision in medical image classification.
 
 ## 2. Dataset Specifications
 * **Source:** SARS-CoV-2 CT-Scan Dataset (Kaggle).
@@ -34,11 +34,11 @@ Final evaluation results on the unseen **Test Set** (15% of the data):
 | **Training Accuracy** | **98.92%** |
 
 ### Loss & Accuracy Curves
-![Training Curves](./curves.png) 
+![Loss & Accuracy Curves](./Assets/abc.jpeg) 
 *(Note: Validation loss closely tracked training loss, indicating zero overfitting.)*
 
 ### Confusion Matrix
-![Confusion Matrix](./confusion_matrix.png)
+![Confusion Matrix](./Assets/def.jpeg)
 * The model correctly identified 367 out of 373 test samples, with near-perfect sensitivity for Non-COVID cases.
 
 ## 5. Repository Structure
