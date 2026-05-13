@@ -34,11 +34,11 @@ Final evaluation results on the unseen **Test Set** (15% of the data):
 | **Training Accuracy** | **98.92%** |
 
 ### Loss & Accuracy Curves
-![Loss & Accuracy Curves](./Assets/abc.jpeg) 
+![Loss & Accuracy Curves](./Assets/def.jpeg) 
 *(Note: Validation loss closely tracked training loss, indicating zero overfitting.)*
 
 ### Confusion Matrix
-![Confusion Matrix](./Assets/def.jpeg)
+![Confusion Matrix](./Assets/abc.jpeg)
 * The model correctly identified 367 out of 373 test samples, with near-perfect sensitivity for Non-COVID cases.
 
 ## 5. Repository Structure
