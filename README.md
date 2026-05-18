@@ -28,7 +28,7 @@ This project leverages deep convolutional neural networks (CNN) to autonomously 
 <div align="center">
   <img src="./Assets/samples.jpg" alt="Sample CT Scans" width="800"/>
   <br>
-  <i>Left: COVID-19 scan | Right: non-COVID scan</i>
+  <i>Down: non-COVID scan | Up: COVID-19 scan</i>
 </div>
 
 ---
